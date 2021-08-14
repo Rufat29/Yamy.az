@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="stylesheet" href="./resources/responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <header>
+        <div class="menu container">
+            <div class="logo1">
+                <a href="index.html"><img src="./resources/img/unnamed.png" alt=""></a>
+            </div>
+            <div>
+                <form class="input-top">
+                    <input class="top-input form-control " type="search" placeholder="Axtar" aria-label="Search">
+                    <a class="top-icon btn bg-danger me-2" href="" role="button"><i style="color: #fff;"
+                            class="fas fa-search"></i></a>
+                </form>
+            </div>
+            <div class="profile">
+                <a class="top-h1" href="contact.html">
+                    <h1>Padisah MMC</h1>
+                </a>
+                <a href="contact.html"><img class="logo2" src="./resources/img/profile.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+
+    <section class="main-section">
+        <main>
+            <div class=" hero container">
+                <div class="container-inner">
+                    <div class="arrow1"> <a href="index.html"><i class="fas fa-chevron-left"></i></a></div>
+                    <div class="contact-input row">
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <input class="inputs" type="text" placeholder="Restoranın adı">
+                            <input class="inputs" type="text" placeholder="Restoranın ünvanı">
+                            <input class="inputs" type="number" placeholder="Əlaqə nömrəsi">
+                            <input class="inputs" type="number" placeholder="Əlaqə nömrəsi(2)">
+                            <input class="inputs" type="text" placeholder="Whatsapp">
+                            <input class="inputs" type="text" placeholder="Facebook">
+                            <input class="inputs" type="text" placeholder="Instagram">
+                            <input class="inputs" type="text" placeholder="Telegram">
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <textarea name="" class="long-text" placeholder="Restoran haqqında məlumat"></textarea>
+                        </div>
+                        <div class=" align col-md-3 col-sm-6 col-12">
+                            <div class="photo-frame">
+                                <div class="profile-photo">
+                                    <img id="profile-img" src="./resources/img/default-img.jpg" alt="Profile photo">
+                                </div>
+                            </div>
+                            <div id="info-2">
+                                <input onchange="showPreviewOne(event);" type="file" name="file" id="file"
+                                    class="inputfile" />
+                                <label for="file">Şəkil seç</label>
+                            </div>
+                            <p class="contact-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                                est natus accusantium praesentium qui illum aut neque sapiente dolorem molestias, nisi
+                                amet perferendis</p>
+                            <div class="save-button2 ">
+                                <button type="button" class="btn btn-danger">Yadda saxla</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="script.js">
+
+
+    </script>
+</body>
+
+</html>
